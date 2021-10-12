@@ -13,7 +13,7 @@
 		8CE988E22715FFFD009736D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE988E02715FFFD009736D6 /* Main.storyboard */; };
 		8CE988E42715FFFE009736D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE988E32715FFFE009736D6 /* Assets.xcassets */; };
 		8CE988E72715FFFE009736D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE988E52715FFFE009736D6 /* LaunchScreen.storyboard */; };
-		8CE988F22715FFFE009736D6 /* UnitTestingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988F12715FFFE009736D6 /* UnitTestingAppTests.swift */; };
+		8CE988F22715FFFE009736D6 /* DataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988F12715FFFE009736D6 /* DataModelTests.swift */; };
 		8CE988FC2715FFFE009736D6 /* UnitTestingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988FB2715FFFE009736D6 /* UnitTestingAppUITests.swift */; };
 		8CE988FE2715FFFE009736D6 /* UnitTestingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988FD2715FFFE009736D6 /* UnitTestingAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		8CE988E62715FFFE009736D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CE988E82715FFFE009736D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CE988ED2715FFFE009736D6 /* UnitTestingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CE988F12715FFFE009736D6 /* UnitTestingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingAppTests.swift; sourceTree = "<group>"; };
+		8CE988F12715FFFE009736D6 /* DataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelTests.swift; sourceTree = "<group>"; };
 		8CE988F72715FFFE009736D6 /* UnitTestingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE988FB2715FFFE009736D6 /* UnitTestingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingAppUITests.swift; sourceTree = "<group>"; };
 		8CE988FD2715FFFE009736D6 /* UnitTestingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		8CE988F02715FFFE009736D6 /* UnitTestingAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				8CE988F12715FFFE009736D6 /* UnitTestingAppTests.swift */,
+				8CE988F12715FFFE009736D6 /* DataModelTests.swift */,
 			);
 			path = UnitTestingAppTests;
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE988F22715FFFE009736D6 /* UnitTestingAppTests.swift in Sources */,
+				8CE988F22715FFFE009736D6 /* DataModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
