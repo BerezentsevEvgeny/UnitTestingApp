@@ -10,18 +10,25 @@ import XCTest
 
 class DataModelTests: XCTestCase {
 
+    var sut: DataModel!
+    
     override func setUp() {
         super.setUp()
-
+        sut = DataModel()
     }
 
     override func tearDown() {
-        
-        
+        sut = nil
         super.tearDown()
     }
 
-    func testExample()  {
+    func testLowestVolumeShouldBeZero() {
+        // given
+        sut.setVolume(to: -1)
+        // when
+        let volume = sut.volume
+        // than
+        XCTAssert(volume == 0, "Lovest should be equal to 0")
 
     }
 
