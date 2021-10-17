@@ -29,14 +29,39 @@ class DataModelTests: XCTestCase {
         let volume = sut.volume
         // than
         XCTAssert(volume == 0, "Lovest should be equal to 0")
-
+    }
+    
+    func testHighestVolumeShouldBeHundred() {
+        // given
+        sut.setVolume(to: 105)
+        // when
+        let volume = sut.volume
+        // than
+        XCTAssert(volume == 100, "Highest should be equal to 100")
     }
 
     func testPerformanceExample() {
-        
-        self.measure {
-            
+        measure {
+            //Method to test
         }
+    }
+    
+    func testNumberOneMustBeGreaterThanNumberTwo() {
+        let numberOne = 2
+        let numberTwo = 1
+        
+        let isGreater = sut.greaterThanValue(x: numberOne, y: numberTwo)
+        
+        XCTAssert(isGreater, "The numerOne should be greater than numberTwo")
+    }
+    
+    func testNumberOneNotBeGreaterThanNumberTwo() {
+        let numberOne = 1
+        let numberTwo = 3
+        
+        let isGreater = sut.greaterThanValue(x: numberOne, y: numberTwo)
+        
+        XCTAssert(!isGreater, "The numerOne should be greater than numberTwo")
     }
 
 }
